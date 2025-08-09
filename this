@@ -1,0 +1,26 @@
+package thiskeyword;
+
+public class Student {
+    int id1 ;
+    String name;
+    String dept;
+    void student(int id,String name,String dept){
+    this.id1=id;
+    this.name=name;
+    this.dept=dept;
+    }
+    
+    void display() {
+    	System.out.println(id1+" "+name +" "+dept);
+    }
+	public static void main(String[] args) {
+		
+		Student stud1=new Student();
+		Student stud2=new Student();
+		stud1.student(1, "Tarun", "VLSI");
+		stud2.student(2, "Barun", "CSE");
+		stud1.display();
+		stud2.display();
+	}
+
+}
