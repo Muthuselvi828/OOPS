@@ -1,0 +1,29 @@
+package studentdetails;
+
+
+public class Student {
+	
+	String name;
+	String regno;
+	String Class;
+	String sec;
+	void details() {
+		System.out.println("The Name of the student is " +name);
+		System.out.println("Register numer of the student is " +regno);
+		System.out.println("The Student's class is " +Class);
+		System.out.println("The section of the student is "+sec);
+		
+	}
+	
+	public static void main(String[] args) {
+
+	Student std1=new Student();
+	 std1.name="Muthuselvi";
+	 std1.regno="2117240050087";
+	 std1.Class="VLSI";
+	 std1.sec="B";
+	 std1.details();
+	 
+	}
+
+}
